@@ -1,0 +1,46 @@
+WHAT IS THIS??
+
+This is a Windows cmd-line interface for Chrome, Google's web browser. 
+
+A linux version is on the way shortly.
+
+This allows you to pull up Chrome with your search results from your cmd line. This little tool can also navigate to certain urls (-url), Google Maps (-maps), Google Mail (-mail), Google's Developer page (-dev), and also Google Code (-code).
+
+You can search for single words or phrases very easily. Searching a phrase? Just add quotes around it, if not the quotes aren't needed at all.
+
+Want to browse your C:\ Drive? Just type 'google -cdrive' in your cmd prompt.
+
+
+HOW DO I INSTALL??
+
+1. Download with git or from github
+2. Find google.bat (you just downloaded it) and add it's location to your PATH.
+3. Find chrome.exe and add the directory to your PATH.
+4. Open a new Command Prompt and type 'google'.
+5. You're done. Enjoy your new shiny tool.
+
+If you do not know how to set your PATH variable in Windows, just search Google for 'setting windows path'.
+NOTE: You may have to open a new command prompt in Windows before it can be used.
+
+
+HOW DO I USE THIS??
+
+ USAGE: google [-b][-cdrive][-n][-url][-s][-mail][-maps][-dev][-code] Args...
+ 
+ google -b         Opens a blank web page (about:blank)
+ google -cdrive    Opens the browser to your C:\ Drive
+ google -n         Opens a new window
+ google -s         Navigates to Google.com (-s - search)
+ google -home      Also, navigates to Google.com
+ google -mail      Navigates to GMail
+ google -maps      Navigates to Google Maps
+ google -dev       Navigates to Google Developer
+ google -code      Navigates to Google Code
+ 
+ google -url "twitter.com"
+                   Opens a browser to the url supplied
+ 
+ google "multiline grep" "perl 6" perlmonks                  
+       This would open 3 new tabs in chrome.
+       Showing the search results for 'multiline grep', 'perl 6' and 'perlmonks'.
+       Meaning that quotes are needed for multi-word searches.
