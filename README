@@ -1,0 +1,19 @@
+ Usage: google [-b][-cdrive][-n][-url][-s][-mail][-maps][-dev][-code] Args...
+ 
+ google -b         Opens a blank web page (about:blank)
+ google -cdrive    Opens the browser to your C:\ Drive
+ google -n         Opens a new window
+ google -s         Navigates to Google.com (-s - search)
+ google -home      Also, navigates to Google.com
+ google -mail      Navigates to GMail
+ google -maps      Navigates to Google Maps
+ google -dev       Navigates to Google Developer
+ google -code      Navigates to Google Code
+ 
+ google -url "twitter.com"
+                   Opens a browser to the url supplied
+ 
+ google "multiline grep" "perl 6" perlmonks                  
+       This would open 3 new tabs in chrome.
+       Showing the search results for 'multiline grep', 'perl 6' and 'perlmonks'.
+       Meaning that quotes are needed for multi-word searches.
